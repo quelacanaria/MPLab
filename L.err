@@ -1,0 +1,7 @@
+Warning[207] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 6 : Found label after column 1. (MYREG)
+Warning[207] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 7 : Found label after column 1. (MYREG2)
+Warning[207] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 8 : Found label after column 1. (MYREG3)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 49 : Found opcode in column 1. (decf)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 50 : Found opcode in column 1. (BNZ)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 51 : Found opcode in column 1. (RETURN)
+Warning[205] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\L.ASM 52 : Found directive in column 1. (end)

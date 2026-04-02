@@ -1,0 +1,83 @@
+MPASM  5.50                           KEN.ASM   5-27-2024  23:40:01         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Error[105]  : Cannot open file (Include File "xc.h" not found)
+                      00001 #include <xc.h>
+                      00002 
+Error[108]  : Illegal character (/)
+                      00003 // Configuration bits
+Error[121]  : Illegal label (#pragma)
+00 0E 1F 1E 81 81 0F C00004 #pragma config FOSC = HSPLL_HS
+       0 0F E0 0F 40 
+Error[121]  : Illegal label (#pragma)
+                      00005 #pragma config WDT = OFF
+Error[121]  : Illegal label (#pragma)
+                      00006 #pragma config LVP = OFF
+Error[121]  : Illegal label (#pragma)
+                      00007 #pragma config PBADEN = OFF
+                      00008 
+Error[108]  : Illegal character (/)
+                      00009 // Define constants
+                      00010 #define MYREG  0x08
+                      00011 #define MYREG2 0x18
+                      00012 #define MYREG3 0x36
+                      00013 
+Error[108]  : Illegal character (/)
+                      00014 // Function prototypes
+Error[122]  : Illegal opcode (delay0)
+                      00015 void delay0(void);;
+Error[122]  : Illegal opcode (delay)
+                      00016 void delay(void);;
+                      00017 
+Error[122]  : Illegal opcode (main)
+                      00018 void main(void) {
+Warning[207]: Found label after column 1. (TRISC)
+  000000FF            00019     TRISC = 0xFF; // Set PORTC as input
+Warning[207]: Found label after column 1. (TRISD)
+  00000000            00020     TRISD = 0x00; // Set PORTD as output
+Warning[207]: Found label after column 1. (PORTC)
+  00000000            00021     PORTC = 0x00; // Clear PORTC
+Warning[207]: Found label after column 1. (PORTD)
+  00000000            00022     PORTD = 0x00; // Clear PORTD
+                      00023 
+Warning[207]: Found label after column 1. (unsigned)
+Error[122]  : Illegal opcode (char)
+                      00024     unsigned char MYREG3 = 0x01;
+                      00025 
+Error[129]  : Expected (ENDW)
+                      00026     while (1) {
+Error[129]  : Expected (END)
+MPASM  5.50                           KEN.ASM   5-27-2024  23:40:01         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+MYREG                             0x08
+MYREG2                            0x18
+MYREG3                            0x36
+PORTC                             00000000
+PORTD                             00000000
+TRISC                             000000FF
+TRISD                             00000000
+__18F4550                         00000001
+__DEBUG                           1
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+
+All other memory blocks unused.
+
+Program Memory Bytes Used:     0
+Program Memory Bytes Free: 32768
+
+
+Errors   :    14
+Warnings :     5 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+
