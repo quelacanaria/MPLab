@@ -1,0 +1,6 @@
+Warning[205] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 2 : Found directive in column 1. (org)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 3 : Found opcode in column 1. (goto)
+Warning[205] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 4 : Found directive in column 1. (org)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 5 : Found opcode in column 1. (retfie)
+Warning[205] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 6 : Found directive in column 1. (org)
+Warning[203] C:\USERS\QUEKENETH\DOCUMENTS\MICRO\NOTHING.ASM 7 : Found opcode in column 1. (retfie)

@@ -1,0 +1,53 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Sat May 25 08:11:35 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000092
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000091      
+            146 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    again   0x000088    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                   again0   0x00007a    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    check   0x00000e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    delay   0x000084    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                   delay0   0x000076    program     static C:\Users\quekeneth\Documents\micro\p.asm
+               next_state   0x00005a    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                      off   0x000052    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                       on   0x00004e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+               rotate_led   0x00002e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+              rotate_ledR   0x00003e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    start   0x000000    program     static C:\Users\quekeneth\Documents\micro\p.asm
+         wait_for_release   0x000070    program     static C:\Users\quekeneth\Documents\micro\p.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000000    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    check   0x00000e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+               rotate_led   0x00002e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+              rotate_ledR   0x00003e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                       on   0x00004e    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                      off   0x000052    program     static C:\Users\quekeneth\Documents\micro\p.asm
+               next_state   0x00005a    program     static C:\Users\quekeneth\Documents\micro\p.asm
+         wait_for_release   0x000070    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                   delay0   0x000076    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                   again0   0x00007a    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    delay   0x000084    program     static C:\Users\quekeneth\Documents\micro\p.asm
+                    again   0x000088    program     static C:\Users\quekeneth\Documents\micro\p.asm
+
+

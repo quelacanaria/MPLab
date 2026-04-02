@@ -1,0 +1,63 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Sun Jun 02 05:58:01 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000a8
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000a7      
+            168 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    again   0x00009e    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   again0   0x000090    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    check   0x00000c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check1   0x000012    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check2   0x000018    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check3   0x00001e    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    delay   0x00009a    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   delay0   0x00008c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                      off   0x000054    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off1   0x00005c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off2   0x000068    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off3   0x000074    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off4   0x000080    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                       on   0x00004c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+               rotate_led   0x000024    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+              rotate_ledR   0x000038    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    start   0x000000    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000000    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    check   0x00000c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check1   0x000012    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check2   0x000018    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   check3   0x00001e    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+               rotate_led   0x000024    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+              rotate_ledR   0x000038    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                       on   0x00004c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                      off   0x000054    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off1   0x00005c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off2   0x000068    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off3   0x000074    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                     off4   0x000080    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   delay0   0x00008c    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                   again0   0x000090    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    delay   0x00009a    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+                    again   0x00009e    program     static C:\Users\quekeneth\Documents\micro\pls.asm
+
+
